@@ -1,0 +1,10 @@
+body{
+    position: relative;
+    top: 1cm;
+}
+img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:1cm;
+}

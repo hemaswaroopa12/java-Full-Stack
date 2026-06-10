@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(197, 224, 74);
+}
+img{
+  /**  transition: transform 5s linear 3s; **/ 
+  animation: picture 10s ease-in-out 3s infinite;
+
+}
+/**img:hover{
+   /** background-color: rgb(48, 45, 222);**/
+    /**tranform:translate(100px, 100px);
+    transform:rotate(360deg);
+    transform:scale(1.5)**/
+   /** border-style: groove;
+    border-width: 1cm;
+    transform:skew(45deg);
+}**/
+@keyframes picture{
+    0%{
+        transform:translate(0cm,0cm) rotate(0deg) scale(1);
+        border-style: dotted;
+        border-width: 0.5cm;
+    }
+    25%{
+        transform:translate(10cm, 10cm) rotate(90deg) scale(1.5);
+        border-style: groove;
+        border-width: 0.5cm;
+    }
+    50%{
+        transform:translate(0cm, 10cm) rotate(270deg) scale(1);
+        border-style: double;
+        border-width: 0.5cm;
+    }
+    75%{
+        transform:translate(0cm, 0cm) rotate(360deg) scale(1.5);
+        border-style: ridge;
+        border-width: 0.5cm;
+    }
+}

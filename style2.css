@@ -1,0 +1,20 @@
+img{
+    width: 200px;
+    height:350px;
+    boder-radius:50%;
+    boder_style: solid;
+   position:static;
+    top:1cm;
+}
+h1{
+    text-align: center;
+    color:blue;
+}
+p{
+    background-color: #e93030;
+    text-align: center;
+    color:green;
+}
+p:hover{
+    
+}
