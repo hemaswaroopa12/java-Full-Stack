@@ -1,0 +1,34 @@
+.friends{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 150px 150px 150px;
+    gap: 1cm;
+}
+header{
+    grid-column:1/2;
+    background: rgb(229, 9, 141);
+}
+aside{
+    grid-column:1/3;
+    background: hsla(57, 96%, 48%, 0.969);
+}
+
+main{
+    grid-column:1/3;
+    background: hsl(0, 91%, 43%);
+}
+footer{
+    grid-column:1/3;
+    background: #09e509;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1cm;
+    
+}
+.d1{
+    background: aqua;
+    text-align: center;
+    padding: 1cm;
+}
