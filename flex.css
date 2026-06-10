@@ -1,0 +1,18 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.801);
+    color: rgb(226, 29, 29);
+}
+meat
+{
+    display: flex;
+    flex-direction: column;
+    list-style: circle;
+}
+u1{
+    display: flex;
+    gap: 1cm;
+    list-style: square;
+}

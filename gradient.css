@@ -1,0 +1,20 @@
+body{
+    height: 10cm;
+    /**background:radial-gradient(circle, red, yellow, green);
+    background: conic-gradient( red, yellow, green);
+    background: linear-gradient( 32deg,#8FDDDF,#FF0052,#7AE2CF);**/
+   /** flex-direction: column;
+    display: flex;
+    justify-content: center;**/
+   /** flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-around;**/
+    /**flex-direction: row;
+    display: flex;
+    justify-content: space-between;**/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1cm;
+    
+}
