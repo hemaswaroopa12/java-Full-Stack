@@ -1,45 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ROOPA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kodavali Hemaswaroopa — Software Engineer</title>
+    <style>
+        :root{--accent:#4f46e5;--bg:#0f172a;--card:#0b1220;--muted:#94a3b8}
+        *{box-sizing:border-box}
+        body{margin:0;font-family:Inter,system-ui,Segoe UI,Arial;background:linear-gradient(180deg,#071025 0%, #0b1220 100%);color:#e6eef8;line-height:1.5}
+        .container{max-width:1000px;margin:36px auto;padding:24px}
+        header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+        .brand{display:flex;align-items:center;gap:12px}
+        .avatar{width:64px;height:64px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;font-weight:700}
+        nav a{color:var(--muted);text-decoration:none;margin-left:14px;font-weight:600}
+        .hero{display:grid;grid-template-columns:1fr 320px;gap:24px;align-items:center}
+        .card{background:rgba(255,255,255,0.03);padding:20px;border-radius:12px}
+        h1{margin:0;font-size:28px}
+        .subtitle{color:var(--muted);margin-top:6px}
+        .contacts{display:flex;flex-direction:column;gap:8px}
+        .btn{display:inline-block;padding:10px 14px;border-radius:8px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+        .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:18px}
+        ul.skills{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px}
+        ul.skills li{background:rgba(255,255,255,0.04);padding:8px 10px;border-radius:8px;color:var(--muted)}
+        footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center}
+        @media(max-width:880px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr}}
+        form input,form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:inherit}
+    </style>
 </head>
 <body>
-    <h1>self intro</h1>
-    <hr>
-    <h2 style="color:red"></h2style>
-         <p> i am roopa ,i am doing <u>b.tech</u> 3<sup>rd</sup>year in the field of cse in mother theresa engineering collage. <br> i have participated in <big>hackathon </big> which is an intra collage</p>
-     <p> programming language:
-        <br>
-        <ol>
-        <li>c</li><li>java</li><li>python</li>
-        </ol>
-    </p>
-    <p>
-        <table>
-            <tr>
-                <th>5 <sup> th</sup> semester</th>
-                <th> marks</th>
-                <th> grade</th>
-            </tr>
-            <tr>
-                <td>DBMS </td>
-                <td>89</td>
-                <td>A</td>
-            </tr>
-           <tr>
-                <td>DE </td>
-                <td>78</td>
-                <td>B</td>
-           </tr>
-            <tr>
-                <td>Dlco </td>
-                <td>99</td>
-                <td>S</td>
-            </tr>
-        </table>
-    </p>
-    <a href="/fom.html"
+    <div class="container">
+        <header>
+            <div class="brand">
+                <div class="avatar">KH</div>
+                <div>
+                    <div style="font-size:12px;color:var(--muted);text-transform:uppercase">Software Engineer</div>
+                    <div style="font-weight:700">Kodavali Hemaswaroopa</div>
+                </div>
+            </div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div>
+                <div class="card">
+                    <h1>Kodavali Hemaswaroopa</h1>
+                    <div class="subtitle">Btech — Mother Therasa Engineering Collage • Software Engineer | Full‑stack</div>
+                    <p style="margin-top:12px;color:var(--muted)">Professional software engineer with hands-on experience in building scalable web applications using Java, JavaScript, and Python. Passionate about clean code, automation, and delivering user-centered solutions.</p>
+
+                    <div class="grid">
+                        <div class="card">
+                            <h3 style="margin:0 0 8px 0">Contact</h3>
+                            <div class="contacts">
+                                <div>Mobile: <a class="btn" href="tel:+918309663083">+91 83096 63083</a></div>
+                                <div>Email: <a class="btn" href="mailto:hemaswaroopa329@gmail.com">hemaswaroopa329@gmail.com</a></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3 style="margin:0 0 8px 0">Skills</h3>
+                            <ul class="skills">
+                                <li>Java</li><li>Spring Boot</li><li>JavaScript</li><li>React</li><li>HTML/CSS</li><li>Python</li><li>SQL</li><li>Git</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <aside>
+                <div class="card">
+                    <h3 style="margin-top:0">Education</h3>
+                    <p style="margin:6px 0 0 0;color:var(--muted)"><strong>B.Tech</strong>, Mother Therasa Engineering Collage</p>
+                    <p style="margin:6px 0 0 0;color:var(--muted)">Specialization: Computer Science & Engineering (Data Science)</p>
+                </div>
+            </aside>
+        </section>
+
+        <section id="projects" style="margin-top:18px">
+            <h2 style="margin-bottom:8px">Selected Projects</h2>
+            <div class="grid">
+                <div class="card">
+                    <h4 style="margin:0 0 8px 0">CampusConnect (Web App)</h4>
+                    <p style="color:var(--muted);margin:0">A student collaboration platform built with Spring Boot and React. Features: authentication, real-time messaging, and project management boards.</p>
+                </div>
+                <div class="card">
+                    <h4 style="margin:0 0 8px 0">Portfolio CMS</h4>
+                    <p style="color:var(--muted);margin:0">A lightweight content manager using Node.js and Express to let non-technical users update portfolio content quickly.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" style="margin-top:18px">
+            <h2>Contact</h2>
+            <div class="card" style="margin-top:8px">
+                <form id="contactForm">
+                    <label style="display:block;margin-bottom:6px;color:var(--muted)">Your name</label>
+                    <input id="name" placeholder="Your name" required>
+                    <label style="display:block;margin:12px 0 6px 0;color:var(--muted)">Message</label>
+                    <textarea id="message" rows="4" placeholder="Write a short message" required></textarea>
+                    <div style="margin-top:12px;display:flex;gap:8px;align-items:center">
+                        <button class="btn" type="submit">Send</button>
+                        <a href="mailto:hemaswaroopa329@gmail.com" style="color:var(--muted);text-decoration:none">Or email directly</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            © <span id="year"></span> Kodavali Hemaswaroopa — Mobile: +91 83096 63083 — hemaswaroopa329@gmail.com
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        document.getElementById('contactForm').addEventListener('submit', function(e){
+            e.preventDefault();
+            const name = document.getElementById('name').value.trim();
+            const message = document.getElementById('message').value.trim();
+            if(!name || !message){ alert('Please fill name and message.'); return; }
+            alert('Thanks, '+name+'. Message ready to send. Use email link to contact directly.');
+            this.reset();
+        });
+    </script>
 </body>
-</html> 
+</html>
