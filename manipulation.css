@@ -1,0 +1,18 @@
+img{
+    width: 300px;
+    border-image-outset: 300px;
+    border-radius: 600px;
+    border-style: groove;
+    border-color: brown;
+}
+body{
+    background-color: aqua;
+}
+#content{
+    display:flex;
+    gap: 1cm;
+}
+h1{
+    text-align: center;
+    background-color: lightpink;
+}
